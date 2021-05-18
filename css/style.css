@@ -1,0 +1,19 @@
+body{margin: 0;
+padding: 0;}
+
+.car{position: relative;
+background:url(bq.jpeg);
+height:100vh;
+background-size: cover;
+background-position: 0 0;
+background-repeat: repeat-x;
+animation: animate 15s linear infinite;}
+
+@keyframes animate {
+  from{background-position: 0 0;}
+  to{background-position: 1000% 0;}
+
+}
+.yo{position: absolute;
+bottom:0px;
+width:200px;}
